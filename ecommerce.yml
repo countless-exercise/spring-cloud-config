@@ -1,1 +1,5 @@
 # 이 파일은 Sprint Cloud Gateway Server 에서 사용됩니다
+token:
+  expiration_time: 86400000
+  secret: user_token
+
