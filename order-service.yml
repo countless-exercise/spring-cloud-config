@@ -1,0 +1,19 @@
+# 이 파일은 User's Microservice 에서 사용됩니다
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: '{cipher}AQBRCaVsoQ3yctd/bV8elGf9ffT4S1wVM0/fiufAU7NWGyjJWOjb/O89QWWGlI7N7CUBDeZobypYR9K2xUZJ9iy5r6jSycZ70KhFLLd18d28A/BmWhY4MrtLmvzUgpeWapLA3vfu9hfG47xTAivRCcDQD3wnnTEQlDEu7T8jigX/t+ZxB/HozDkAHitv/XHi65PiVf2ON3sRqF+D8dYM0gzluj5yZoI6M18PFYKjs+8yTQBlImIaGKZ+8faHSbfdOGXr93AkllAxknp2iTA9Ygk9zVl7ivDROd5S7XYlLnNC2003qPhj8mf145Vb55RZKyHCNO/tQjriTqLzjB/95k7jNiysUYEitwGCPTy6Qvry68V+uaA/WZOwxBxc7OdkmFA='
+    password: '{cipher}AQBIrW1t/NfRN1NenQuffS9NdrTfPW6vy8YIirWMCB7w01AX8hb1uxIW2vUNpdv8FfrEpt90QWdvBXrPAP0pFD2Ez/FH/+JQOJPtO6X5ndJE/JFq1/A2UQGMxQHdZDPrPAyGw9hWqpFjWulfMAuwEXgpCtnIFAnOaDbjozzMZ6itcFdkWp0W2+Rccv4PzF7sQSNfRRNm+9WmOv0VPROYccSGNnKMVkgsxgV4d/MsE8DxdK0VKL2Jn3v5+bIN/xiZWMjECAxntnnSh8aBIXFnqDCVWE4rqQAw8/KlKNU2NS81ZF0i3ltVS6FA+Nf3DhUKvqUdUylFbJj7w/3yQLbGgPqQh49sQR0cneB0OHVSwMeHKVoX4jFYVB2FQu4ggiZPYzw='
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password: '{cipher}AQA1UUKfpbQHUL3hhOQC37aXfVh9Rnw+6e6fi+HN8W+jV2ThNbJDfXfCbCN9HD+3V5eDe44XqOjHQdk0s9a2JvaoKdWzOWFzt5IJiocSQldJ+7PPjoAeQp73bgVW/4cGwKVQnaGDc3oI9+n9tyVM0uDISBLf0EMvPC6Co2TJBDiV4oQ7aM3cJ5SoCLbVQw2/ODWseU2LalJC/oiGl3yjjKdHdJDatL6Cjg9dZoqfE7N6SFThfmwcLDyrOv8Vbg3nk8cN3K/QWVZTfYjk2N6jqVbsMwN/T+KrcY0nKGH7u0+4QnO4lCYG/J2u4JCR2qqgWaLHJwGQx+OvsNzvsyANcjz/QFBckzwUgyoKTO99HwXNumDh8VUZD0nPbVYWXAELsSY='
+
+token:
+  expiration_time: 86400000
+  secret: '{cipher}AQABTkN5biIvJbv4+xi/m4EYQPfQ6a0oPo2HDBHnMhfJ1D0WQNIS39ne7qXa6KRsav5qvJW+s4g/I9H7NLECnQQbDYqTnfPueeG17v2wVPr3WHMzOzqd1XQxqH11XDNBpD9QnfFT9QcbKsSU/M0Qki8tsLLPxxIk+X28qrClQpMkDoqjrHyFPTXb3401ifBSCMsO9zm9w+yIQkwMSbzAYybDh92vvTreOjmImoQDWSdc1hg6Q9dlz1uCgWNDUBLpepB2YBAghpyHqtd7a+aS1fm78YogaOW20q2vA9+Z1S9Wg+smic77LBLvrexZ/DIutM5CGSvY5eI0K0BYlHusqScLZajlXlO6iXn5sqAQyTWlGG+E2JDWF5b3DtchxbOTGw18MxUA/2sFMhL1oTnrxNXp'
+  
+gateway:
+  ip: 172.18.0.5
+  
